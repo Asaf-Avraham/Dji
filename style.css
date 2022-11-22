@@ -148,7 +148,7 @@ filter: invert(1);
 }
 
 .circle{
-    position: absolute;
+    position:fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -157,9 +157,20 @@ filter: invert(1);
     clip-path: circle(600px at right 800px);
 }
 
-/* @media only screen and (min-width: 600px) {
-   .Starbucks{
-    
 
-   } 
-} */
+
+@media only screen and (min-width:300px) {
+   
+}
+
+@media only screen and (min-width:600px) {
+   
+}
+
+@media only screen and (min-width:900px) {
+  
+}
+
+@media only screen and (min-width: 1320px) {
+   
+}
